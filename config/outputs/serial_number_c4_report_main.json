@@ -1,0 +1,110 @@
+{
+  "id": "serial_number_c4_report_main",
+  "input_id": "serial_number_c4",
+  "output_file_name": "serial_number_c4_report_main.csv",
+  "processor_module": "processors.serial_number_c4_report_main",
+  "delimiter": "|",
+  "omit_unmapped": true,
+  "columns": [
+    {
+      "name": "LINHA",
+      "source": "LINHA"
+    },
+    {
+      "name": "NUMERO_DO_SERIAL",
+      "source": "NUMERO_DO_SERIAL"
+    },
+    {
+      "name": "CNPJ_CPF_USUARIO",
+      "source": "CNPJ_CPF_USUARIO"
+    },
+    {
+      "name": "RAZAO_SOCIAL_USUARIO",
+      "source": "RAZAO_SOCIAL_USUARIO"
+    },
+    {
+      "name": "CNPJ_CPF_REVENDA",
+      "source": "CNPJ_CPF_REVENDA"
+    },
+    {
+      "name": "RAZAO_SOCIAL_REVENDA",
+      "source": "RAZAO_SOCIAL_REVENDA"
+    },
+    {
+      "name": "CATEGORIA_REVENDA",
+      "source": "CATEGORIA_REVENDA"
+    },
+    {
+      "name": "CODIGO_DO_PRODUTO",
+      "source": "CODIGO_DO_PRODUTO"
+    },
+    {
+      "name": "DESCRICAO_DO_PRODUTO",
+      "source": "DESCRICAO_DO_PRODUTO"
+    },
+    {
+      "name": "DATA_VENCIMENTO_SERIAL",
+      "source": "DATA_VENCIMENTO_SERIAL"
+    },
+    {
+      "name": "PERIODICIDADE_DO_PRODUTO",
+      "source": "PERIODICIDADE_DO_PRODUTO"
+    },
+    {
+      "name": "DATA_ULTIMA_RENOVACAO",
+      "source": "DATA_ULTIMA_RENOVACAO"
+    },
+    {
+      "name": "DATA_ATIVACAO_SERIAL",
+      "source": "DATA_ATIVACAO_SERIAL"
+    },
+    {
+      "name": "CONSULTOR_REVENDA",
+      "source": "CONSULTOR_REVENDA"
+    },
+    {
+      "name": "DATA_ULTIMA_COMPRA_REVENDA",
+      "source": "DATA_ULTIMA_COMPRA_REVENDA"
+    },
+    {
+      "name": "STATUS_DA_REVENDA",
+      "source": "STATUS_DA_REVENDA"
+    },
+    {
+      "name": "DATA_ULTIMA_COMPRA_FULL_REVENDA",
+      "source": "DATA_ULTIMA_COMPRA_FULL_REVENDA"
+    },
+    {
+      "name": "TIPO_USUARIO",
+      "compute": "compute_user_type"
+    },
+    {
+      "name": "ANO_MES_VCTO",
+      "compute": "compute_ano_mes_vcto"
+    },
+    {
+      "name": "PRODUTO_CALCULADO",
+      "compute": "compute_produto"
+    },
+    {
+      "name": "PRECO",
+      "compute": "compute_preco"
+    },
+    {
+      "name": "Delivery",
+      "compute": "compute_delivery"
+    },
+    {
+      "name": "BRINDE",
+      "compute": "compute_brinde"
+    },
+    {
+      "name": "MENSAL",
+      "compute": "compute_mensal"
+    },
+    {
+      "name": "SITUACAO_SERIAL",
+      "compute": "compute_situacao_serial"
+    }
+  ]
+}

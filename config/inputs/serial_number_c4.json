@@ -1,0 +1,148 @@
+{
+  "id": "serial_number_c4",
+  "file_name": "serial_number_c4.csv",
+  "delimiter": "|",
+  "encoding": "LATIN1",
+  "has_headers": true,
+  "decimal_separator": ",",
+  "thousands_separator": ".",
+  "date_format": "%Y-%m-%d",
+  "columns": [
+    {
+      "position": 1,
+      "name": "LINHA",
+      "description": "Datasource",
+      "type": "alphabetic",
+      "nullable": false,
+      "allow_duplicates": true
+    },
+    {
+      "position": 2,
+      "name": "NUMERO_DO_SERIAL",
+      "description": "Serial number",
+      "type": "alphabetic",
+      "nullable": false,
+      "allow_duplicates": false
+    },
+    {
+      "position": 3,
+      "name": "CNPJ_CPF_USUARIO",
+      "description": "User identification number",
+      "type": "alphabetic",
+      "nullable": true,
+      "allow_duplicates": true
+    },
+    {
+      "position": 4,
+      "name": "RAZAO_SOCIAL_USUARIO",
+      "description": "User name",
+      "type": "alphabetic",
+      "nullable": true,
+      "allow_duplicates": true
+    },
+    {
+      "position": 5,
+      "name": "CNPJ_CPF_REVENDA",
+      "description": "Reseller identification number",
+      "type": "alphabetic",
+      "nullable": true,
+      "allow_duplicates": true
+    },
+    {
+      "position": 6,
+      "name": "RAZAO_SOCIAL_REVENDA",
+      "description": "",
+      "type": "alphabetic",
+      "nullable": true,
+      "allow_duplicates": true
+    },
+    {
+      "position": 7,
+      "name": "CATEGORIA_REVENDA",
+      "description": "Reseller category",
+      "type": "alphabetic",
+      "nullable": true,
+      "allow_duplicates": true
+    },
+    {
+      "position": 8,
+      "name": "CODIGO_DO_PRODUTO",
+      "description": "Product Id",
+      "type": "alphabetic",
+      "nullable": true,
+      "allow_duplicates": true
+    },
+    {
+      "position": 9,
+      "name": "DESCRICAO_DO_PRODUTO",
+      "description": "",
+      "type": "alphabetic",
+      "nullable": true,
+      "allow_duplicates": true
+    },
+    {
+      "position": 10,
+      "name": "DATA_VENCIMENTO_SERIAL",
+      "description": "Serial Number Expiry date",
+      "type": "date",
+      "nullable": true,
+      "allow_duplicates": true
+    },
+    {
+      "position": 11,
+      "name": "PERIODICIDADE_DO_PRODUTO",
+      "description": "Periodicity",
+      "type": "integer",
+      "nullable": false,
+      "allow_duplicates": true
+    },
+    {
+      "position": 12,
+      "name": "DATA_ULTIMA_RENOVACAO",
+      "description": "Last renewal date",
+      "type": "date",
+      "nullable": true,
+      "allow_duplicates": true
+    },
+    {
+      "position": 13,
+      "name": "DATA_ATIVACAO_SERIAL",
+      "description": "Activation date",
+      "type": "date",
+      "nullable": true,
+      "allow_duplicates": true
+    },
+    {
+      "position": 14,
+      "name": "CONSULTOR_REVENDA",
+      "description": "Salesperson",
+      "type": "alphabetic",
+      "nullable": true,
+      "allow_duplicates": true
+    },
+    {
+      "position": 15,
+      "name": "DATA_ULTIMA_COMPRA_REVENDA",
+      "description": "",
+      "type": "date",
+      "nullable": true,
+      "allow_duplicates": true
+    },
+    {
+      "position": 16,
+      "name": "STATUS_DA_REVENDA",
+      "description": "",
+      "type": "alphabetic",
+      "nullable": true,
+      "allow_duplicates": true
+    },
+    {
+      "position": 17,
+      "name": "DATA_ULTIMA_COMPRA_FULL_REVENDA",
+      "description": "",
+      "type": "date",
+      "nullable": true,
+      "allow_duplicates": true
+    }
+  ]
+}

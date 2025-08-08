@@ -1,0 +1,8 @@
+{
+  "inputs": [
+    { "description_file": "inputs/serial_number_c4.json", "active": true }
+  ],
+  "outputs": [
+    { "description_file": "outputs/serial_number_c4_report_main.json", "active": true }
+  ]
+}
